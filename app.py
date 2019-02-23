@@ -34,5 +34,21 @@ def lobby():
     return render_template('lobby.html', users=users)
 
 
+def assignRoles():
+    wolfID = selectWolf(users)
+    for x in users:
+        if x == wolfID:
+            roles[x] = 'wolf'
+        else:
+            roles[x] = 'sheep'
+
+
+
+def selectWolf(uids):
+    rand = random.randint(0, len(uids))
+    wolfId = uids[rand]
+    return wolfId
+
+
 if __name__ == '__main__':
     app.run()
