@@ -1,6 +1,9 @@
 from flask import Flask
 from flask import request
 from flask import render_template
+from flask import session
+from flask import redirect
+from flask import url_for
 
 app = Flask(__name__)
 users = []
@@ -15,6 +18,11 @@ def hello_world():
 def add_user(): #add user to our list of users from submitted
     data = request.form
     users.append(data['username'])
+    return redirect(url_for('lobby'))
+
+
+@app.route('/lobby', methods=['GET'])
+def lobby():
     return render_template('lobby.html', users=users)
 
 
