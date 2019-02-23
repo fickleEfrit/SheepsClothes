@@ -25,6 +25,7 @@ def assignScenario(uids):
 
 def selectWolf(uids):
     rand = random.randint(0, len(uids))
+
     wolfId = uids[rand]
     return wolfId
 
