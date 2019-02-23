@@ -33,6 +33,19 @@
     {"tword": "Piano", "words" : ["music", "keys", "pedals"]},
     {"tword": "Drum", "words" : ["stick", "beat", "roll"]},
     {"tword": "Calculator", "words" : ["electronic", "operations", "numbers"]}
+    {"tword": "Train", "words" : ["tracks", "engine", "steam"]},
+    {"tword": "Car", "words" : ["wheels", "pedals", "gas"]},
+    {"tword": "Plane", "words" : ["flight", "wings", "cabin"]},
+    {"tword": "Bicycle", "words" : ["wheels", "handle", "bell"]},
+    {"tword": "Concert", "words" : ["music", "crowded", "loud"]},
+    {"tword": "Volleyball", "words" : ["team", "net", "spike"]},
+    {"tword": "Earth", "words" :  ["planet", "water", "large"]},
+    {"tword": "Soccer", "words" :  ["dribble", "goal", "pass"]},
+    {"tword": "Basketball", "words" : ["dribble", "court", "jump"]},
+    {"tword": "Baseball", "words" : ["steal", "swing", "base"]},
+    {"tword": "Hockey", "words" :  ["stick", "ice", "goal"]},
+    {"tword": "Football", "words" : ["kick", "pass", "flag"]},
+    {"tword": "Magic", "words" :  ["mystic", "sage", "wand"]}
     ]
 }
 
