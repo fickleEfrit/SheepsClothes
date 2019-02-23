@@ -8,7 +8,7 @@ hint = None
 def assignScenario(uids):
     with open(fileName) as f:
         data = json.load(f)
-    randSc = random.randint(0, 33)
+    randSc = random.randint(0, 40)
     sc = data['wordbank'][randSc]['tword']
 
     wolfID = selectWolf(uids)
@@ -25,7 +25,6 @@ def assignScenario(uids):
 
 def selectWolf(uids):
     rand = random.randint(0, len(uids))
-
     wolfId = uids[rand]
     return wolfId
 
