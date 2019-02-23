@@ -1,18 +1,18 @@
 from flask import Flask
 import json
-from pprint import pprint
-
-with open('data.json') as f:
-    data = json.load(f)
-
-pprint(data)
-
-@app.route('/')
+import random
 
 def assignScenario(fileName):
+    with open(fileName) as f:
+        data = json.load(f)
+    rand = random.randint(0, 100)
+    sc = data["scenarios"][rand]
 
 
-def selectWolf():
+
+def selectWolf(uids):
+    rand = random.randint(0, len(uids))
+
 
 
 
