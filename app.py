@@ -7,7 +7,10 @@ from flask import url_for
 
 app = Flask(__name__)
 users = []
-user_sessions = [] #key -- user's name, val -- user_session
+roles = {}
+
+game_in_progress = False
+
 
 @app.route('/', methods=['GET'])
 def hello_world():
@@ -18,6 +21,7 @@ def hello_world():
 def add_user(): #add user to our list of users from submitted
     data = request.form
     users.append(data['username'])
+    session['username'] = data['username']
     return redirect(url_for('lobby'))
 
 
