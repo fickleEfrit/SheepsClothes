@@ -8,6 +8,7 @@ import random
 app = Flask(__name__)
 app.config["REDIS_URL"] = "redis://localhost"
 app.register_blueprint(sse, url_prefix='/stream')
+
 """
 
 def assignScenario(fileName, uids):
@@ -33,4 +34,5 @@ def selectWolf(uids):
     rand = random.randint(0, len(uids))
     wolfId = uids[rand]
     return wolfId
+
 
