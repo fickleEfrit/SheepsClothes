@@ -1,6 +1,0 @@
-{tword: "Beach", word1: "shell", word2: "sunny", word3: "umbrella"}
-{tword: "Ocean", word1: "deep", word2: "fish", word3: "wave"}
-(tword: "Mountain", word1: "altitude", word2: "snowy", word3: "goat"}
-{tword: "Rainforest", word1: "trees", word2: "vines", word3: "damp"}
-{tword: "Desert", word1: "dry", word2: "camel", word3: "sunny"}
-{tword: "Farm", word1: "pitchfork", word2: "vegetable", word3: "field"}
