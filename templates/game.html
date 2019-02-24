@@ -8,7 +8,7 @@
 {% if roles[session['username']] == 'wolf' %}
     You are a wolf. Your hint is {{ hint }}.
 {% else %}
-    You are a sheep.
+    You are a sheep. The word is {{ word }}.
 {% endif %}
 </body>
 </html>
