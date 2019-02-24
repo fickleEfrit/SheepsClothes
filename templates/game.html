@@ -5,6 +5,10 @@
     <title>Game</title>
 </head>
 <body>
-{{ session[username] }}
+{% if roles[session['username']] == 'wolf' %}
+    You are a wolf. Your hint is {{ hint }}.
+{% else %}
+    You are a sheep.
+{% endif %}
 </body>
 </html>
