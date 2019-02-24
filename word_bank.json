@@ -32,7 +32,7 @@
     {"tword": "Guitar", "words" : ["string", "wooden", "tune"]},
     {"tword": "Piano", "words" : ["music", "keys", "pedals"]},
     {"tword": "Drum", "words" : ["stick", "beat", "roll"]},
-    {"tword": "Calculator", "words" : ["electronic", "operations", "numbers"]}
+    {"tword": "Calculator", "words" : ["electronic", "operations", "numbers"]},
     {"tword": "Train", "words" : ["tracks", "engine", "steam"]},
     {"tword": "Car", "words" : ["wheels", "pedals", "gas"]},
     {"tword": "Plane", "words" : ["flight", "wings", "cabin"]},
